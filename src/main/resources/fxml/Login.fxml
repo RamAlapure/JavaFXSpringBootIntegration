@@ -15,7 +15,7 @@
          </font>
       </Label>
       <TextField fx:id="username" layoutX="131.0" layoutY="92.0" prefHeight="36.0" prefWidth="171.0" promptText="Username" />
-      <PasswordField fx:id="password" layoutX="131.0" layoutY="141.0" prefHeight="36.0" prefWidth="171.0" promptText="Password" />
+      <PasswordField fx:id="password" layoutX="131.0" layoutY="141.0" onAction="#login" prefHeight="36.0" prefWidth="171.0" promptText="Password" />
       <Button fx:id="btnLogin" layoutX="239.0" layoutY="199.0" mnemonicParsing="false" onAction="#login" text="Sign In" />
    </children>
 </AnchorPane>
